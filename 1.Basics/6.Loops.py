@@ -1,6 +1,8 @@
 # Loops → Repeat actions while a condition is true.
 # for while → Repeat a block of code while a condition is true.
 
+
+# we can also define range like this range(5, 10) # This will give us numbers from 5 to 9
 for i in range(3):
     print("Hello")  # Prints 3 times
 
