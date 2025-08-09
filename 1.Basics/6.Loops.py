@@ -1,0 +1,43 @@
+# Loops → Repeat actions while a condition is true.
+# for while → Repeat a block of code while a condition is true.
+
+for i in range(3):
+    print("Hello")  # Prints 3 times
+
+# while loop example
+count = 0
+while count < 3:
+    print("Hello")
+    count += 1  # Increment count to avoid infinite loop        
+
+# -----------------------------------------------------------------------------------------------
+'''
+Control Statements → Change loop behavior.
+break → Stop loop
+continue → Skip to next iteration
+'''
+
+for i in range(5):
+    if i == 3:
+        break
+    print(i)  # Stops when i = 3
+for i in range(5):
+    if i == 3:
+        continue
+    print(i)  # Skips printing when i = 3   
+
+# -----------------------------------------------------------------------------------------------
+
+
+# Manoj Test
+
+i = ["Amisha", "Manoj", "Ravi", "Shubham", "Ankit", "Priya", "Rahul", "Neha", "Suman", "Rohan"]
+for i in i:
+    print(i, "is friend of Manoj's")
+
+# -----------------------------------------------------------------------------------------------
+
+count = 0
+while count < 5:
+    print("Count is:", count)
+    count += 1  # Increment count to avoid infinite loop
