@@ -56,3 +56,10 @@ print(my_set)    # {1, 2, 3}
 print(bool(0))   # False
 print(bool(5))   # True
 print(bool(""))  # False
+
+
+
+name = "Manoj"
+
+name += " Kumar"
+print(name)      # "Manoj Kumar"
