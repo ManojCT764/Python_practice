@@ -43,3 +43,27 @@ count = 0
 while count < 5:
     print("Count is:", count)
     count += 1  # Increment count to avoid infinite loop
+
+
+# -----------------------------------------------------------------------------------------------
+
+# Example of using continue and break statement
+
+list = [1, 2, 3, 4, 5, 5, 6, 7, 8, 9]
+
+for i in list:
+    if i == 4:
+        continue
+    elif i == 7:
+        break
+    else:
+        print(i)
+
+
+# Manoj Test 
+
+# Question # Print Even Number till 50
+
+for i in range(50):
+    if i%2 == 0:
+        print(i, end=" ")
